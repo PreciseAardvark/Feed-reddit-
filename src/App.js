@@ -41,7 +41,7 @@ function App() {
             selectedSubreddit={selectedSubreddit}
             handleSelectSubreddit={handleSelectSubreddit}
           />
-          <button onClick={handleSelectButtonClick} disabled={!selectedSubreddit}>Consultar</button>
+          <button onClick={handleSelectButtonClick} disabled={!selectedSubreddit} className='btn-category'>Consultar</button>
         </div>
       </header>
       <div className="articles">

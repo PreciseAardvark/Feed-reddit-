@@ -1,9 +1,9 @@
 import React from 'react';
-// Función para limitar la cantidad de palabras
+
 const limitWords = (text, maxWords) => {
   const words = text.split(' ');
   if (words.length > maxWords) {
-    return words.slice(0, maxWords).join(' ') + '...'; // Agregar puntos suspensivos si se corta el texto
+    return words.slice(0, maxWords).join(' ') + '...'; 
   }
   return text;
 };
